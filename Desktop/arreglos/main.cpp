@@ -17,7 +17,12 @@ int main()
     arreglo.insertar_final("Agua");
     arreglo.insertar_final("Sal");
     arreglo.insertar_final("Arena");
+    for (size_t i = 0; i < arreglo.size(); i++)
+    {
+        cout << arreglo[i]<<" ";
+    }
 
+    cout << endl;
 
     arreglo. insertar_inicio("Kilo");
     arreglo. insertar_inicio("Perro");
